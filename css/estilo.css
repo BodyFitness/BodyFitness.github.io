@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: sans-serif;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
 nav{
-    background-color: #000;
+    background-color:#DAA520;
     height: 80px;
     width: 100%;
     line-height: 80px;
@@ -18,7 +18,7 @@ nav{
 
 label{
     color: #fff;
-    font-size: 27px;
+    font-size: 25px;
 }
 
 nav ul{
@@ -29,12 +29,12 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 nav ul li a{
     color: #fff;
-    font-size: 27px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -47,4 +47,41 @@ nav ul li a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#one{
+    background-color: #363636;
+    justify-content: center;
+}
+
+#one h3{
+    text-align: center;
+    color: #DAA520;
+    padding: 30px;
+}
+
+#one h1{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+div.icons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons img{
+    height: 100px;
+    margin: 40px;
+}
+
+.icons figure{
+    margin-top: 40px;
+}
+
+.icons figcaption{
+    text-align: center;
+    padding:  0 0 50px;
 }
