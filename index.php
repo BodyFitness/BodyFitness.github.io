@@ -8,11 +8,10 @@
 </head>
 <body>
 
-
-
-<section class="wallpaper"></section>
-
-
+	
+<section class="wallpaper">
+	
+</section>
 
 
 

@@ -9,29 +9,31 @@
 </head>
 <body>
 
-      <section id="one">
+    <section id="one">
+        
             <h3>Porquê nos escolher?</h3>
             <h1>Empurre seus limites para a frente</h1>
 
             <div class="icons">
-                <figure>
+                <div class="img">
                     <img src="img/icon.png">
-                    <figcaption>????????????</figcaption>
-                </figure>
-                <figure>
+                    <h2>??????????</h2>
+                </div>
+                <div class="img">
                     <img src="img/icon.png">
-                    <figcaption>????????????</figcaption>
-                </figure>
-                <figure>
+                    <h2>??????????</h2>
+                </div>
+                <div class="img">
                     <img src="img/icon.png">
-                    <figcaption>????????????</figcaption>
-                </figure>
-                <figure>
+                    <h2>??????????</h2>
+                </div>
+                <div class="img">
                     <img src="img/icon.png">
-                    <figcaption>????????????</figcaption>
-                </figure>
+                    <h2>??????????</h2>
+                </div>
             </div>
-      </section>
+
+    </section>
 
 </body>
 </html>
