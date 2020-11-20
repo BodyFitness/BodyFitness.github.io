@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* CSS NAVBAR*/
+
 nav{
     background-color:#DAA520;
     height: 80px;
@@ -49,19 +51,21 @@ nav ul li a{
     background-position: center;
 }
 
+/* CSS SECTION ONE */
+
 #one{
     background-color: #1C1C1C;
     justify-content: center;
 }
 
-#one h3, #two h3{
+#one h3, #two h3,  #banner-2 h3{
     text-align: center;
     color: #DAA520;
     padding: 30px;
     text-transform: uppercase;
 }
 
-#one h1, #two h1{
+#one h1, #two h1, #banner-2 h1{
     text-align: center;
     color: #fff;
     padding: 20px;
@@ -82,6 +86,8 @@ nav ul li a{
     margin: 40px;
 }
 
+/* CSS SECTION TWO */
+
 #two{
     background-color: #363636;
     justify-content: center;
@@ -96,5 +102,89 @@ nav ul li a{
 }
 
 .classes .img img{
-    height: 350px;
+    height: 260px;
 }
+
+/* CSS PRICES */
+
+#banner-2{
+    justify-content: center;
+    align-items: center;
+    background: url(../img/banner-2.jpg);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prices{
+    background-color: #1C1C1C; 
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 100px;
+}
+
+.content{
+    width: 300px;
+    background:  #1C1C1C;
+    border-radius: 20px;
+    margin:5px;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.price{
+    height: 120px;
+    margin: 2% auto 0;
+    text-align: center;
+}
+
+.detail{
+    margin-top: -50px;
+}
+
+.content h1{
+    font-size: 20px;
+    color: #fff;
+    line-height: 5;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: 
+}
+
+.detail h4{
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    line-height: 3;
+}
+
+.content a{
+    text-decoration: none;
+    border-radius: 3px;
+    border:2px solid #fff;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin-top: 5% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
