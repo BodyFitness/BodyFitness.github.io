@@ -188,3 +188,13 @@ nav ul li a{
 }
 
 
+/* CSS FOOTER*/
+
+footer{
+    background-color: #363636;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 70px;
+}
