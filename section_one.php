@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-3">
                     <div class="info">
-                        <img src="img/icon-barra.png" alt="Barra">
+                        <img id="barra" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-barra.png" alt="Barra">
                         <h4>Personal Trainer</h4>
                         <p>Desfrute de nosso acompanhamento pessoal para que
                             não se sinta sozinho ou em duvida em como realizar
@@ -30,7 +30,7 @@
 
                 <div class="col-3">
                     <div class="info">
-                        <img src="img/icon-copo.png" alt="Copo">
+                        <img id="copo" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-copo.png" alt="Copo">
                         <h4>Plano Nutricional</h4>
                         <p>Com nosso plano nutricional você tem um desenvolvimento
                             maior com uma dieta focada de acordo com as suas necessidades
@@ -43,7 +43,7 @@
 
                 <div class="col-3">
                     <div class="info">
-                        <img src="img/icon-heart.png" alt="Coração">
+                        <img id="heart" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-heart.png" alt="Coração">
                         <h4>Consulta Médica</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                             Distinctio, ullam necessitatibus minus mollitia
@@ -54,7 +54,7 @@
 
                 <div class="col-3">
                     <div class="info">
-                        <img src="img/icon-esteira.png" alt="esteira">
+                        <img id="esteira" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-esteira.png" alt="esteira">
                         <h4>Equipamentos Modernos</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                             Distinctio, ullam necessitatibus minus mollitia
@@ -70,6 +70,6 @@
             
 
     </section>
-
+    <script src="hoverScript.js"></script>
 </body>
 </html>
