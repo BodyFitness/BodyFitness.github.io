@@ -36,22 +36,6 @@
 			</div>
 		</div>
 	</div>
-	<!--
-	<div class="classes">
-		<div class="img">
-			<img src="img/gallery-1.jpg">
-		</div>
-		<div class="img">
-			<img src="img/gallery-2.jpg">
-		</div>
-		<div class="img">
-			<img src="img/gallery-3.jpg">
-		</div>
-		<div class="img">
-			<img src="img/gallery-4.jpg">
-		</div>
-	</div>
-	-->
 </section>
 
 
