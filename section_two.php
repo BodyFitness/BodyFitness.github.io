@@ -9,10 +9,34 @@
 <body>
 
 <section id="two">
-    
-	<h3>Nossas Aulas</h3>
-	<h1>O que podemos oferecer</h1>
-
+	<div class="container">
+		<div class="row">
+			<h4>O que podemos oferecer</h4>
+		</div>
+		<div class="row">
+			<div class="col-3">
+				<div class="img">
+					<img src="img/gallery-1.jpg">
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img">
+					<img src="img/gallery-2.jpg">
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img">
+					<img src="img/gallery-3.jpg">
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img">
+					<img src="img/gallery-4.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
 	<div class="classes">
 		<div class="img">
 			<img src="img/gallery-1.jpg">
@@ -27,7 +51,7 @@
 			<img src="img/gallery-4.jpg">
 		</div>
 	</div>
-
+	-->
 </section>
 
 
