@@ -8,23 +8,25 @@
 </head>
 <body>
 
-	<div class="navbar navbar-expand-lg bg-warning"> 
-        <a class="navbar-brand">BODYFITNESS</a>
-        <ul class="navbar-nav">
+	<div class="navbar navbar-expand-lg bg-dark"> 
+        <a class="navbar-brand">
+            <img src="img/logo.png" alt="BODYFITNESS">
+        </a>
+        <ul class="navbar-nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Inicio</a>
+                <a class="nav-link text-white" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sobre.php">Sobre Nós</a>
+                <a class="nav-link text-white" href="sobre.php">Sobre Nós</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="time.php">Nosso Time</a>
+                <a class="nav-link text-white" href="time.php">Nosso Time</a>
             </li>
     	    <li class="nav-item">
-                <a class="nav-link" href="serviços.php">Serviços</a>
+                <a class="nav-link text-white" href="serviços.php">Serviços</a>
             </li>
 	    	<li class="nav-item">
-                <a class="nav-link" href="contato.php">Contato</a>
+                <a class="nav-link text-white" href="contato.php">Contato</a>
             </li>
         </ul>
     </div>
