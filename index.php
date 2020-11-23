@@ -15,7 +15,7 @@
 	<img src="img/wallpaper.jpg" alt="Wallpaper">
 </section>
 
-<?php include("section_two.php"); ?>
+<?php include("section_one.php"); ?>
 	
 </section>
 

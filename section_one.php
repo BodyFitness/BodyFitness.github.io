@@ -4,34 +4,70 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BodyFitness</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 </head>
 <body>
 
-    <section id="one">
-        
-            <h3>Porquê nos escolher?</h3>
-            <h1>Empurre seus limites para a frente</h1>
-
-            <div class="icons">
-                <div class="img">
-                    <img src="img/icon.png">
-                    <h2>??????????</h2>
-                </div>
-                <div class="img">
-                    <img src="img/icon.png">
-                    <h2>??????????</h2>
-                </div>
-                <div class="img">
-                    <img src="img/icon.png">
-                    <h2>??????????</h2>
-                </div>
-                <div class="img">
-                    <img src="img/icon.png">
-                    <h2>??????????</h2>
-                </div>
+    <section class="secao1" id="one">
+        <div class="container">
+            <div class="row">
+                <h4>Porquê escolher a BodyFitness?</h4>
             </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="info">
+                        <img src="img/icon-barra.png" alt="Barra">
+                        <h4>Personal Trainer</h4>
+                        <p>Desfrute de nosso acompanhamento pessoal para que
+                            não se sinta sozinho ou em duvida em como realizar
+                            determina atividade. Conte com nosso sistema de 
+                            personal trainer.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="info">
+                        <img src="img/icon-copo.png" alt="Copo">
+                        <h4>Plano Nutricional</h4>
+                        <p>Com nosso plano nutricional você tem um desenvolvimento
+                            maior com uma dieta focada de acordo com as suas necessidades
+                            possuimos planos nutricionais para todos, incluindo plano para
+                            Vegetarianos, veganos e crudi.
+                
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="info">
+                        <img src="img/icon-heart.png" alt="Coração">
+                        <h4>Consulta Médica</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Distinctio, ullam necessitatibus minus mollitia
+                            laborum voluptate nam a explicabo eum vero magni magnam
+                            quasi hic molestias aliquid nostrum aperiam? Tempora, incidunt.</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="info">
+                        <img src="img/icon-esteira.png" alt="esteira">
+                        <h4>Equipamentos Modernos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Distinctio, ullam necessitatibus minus mollitia
+                            laborum voluptate nam a explicabo eum vero magni magnam
+                            quasi hic molestias aliquid nostrum aperiam? Tempora, incidunt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            
+
+            
 
     </section>
 
