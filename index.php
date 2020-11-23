@@ -9,9 +9,13 @@
 <body>
 
 
-<?php include("navbar.php") ?>
+<?php include("navbar.php"); ?>
 
 <section class="wallpaper">
+	<img src="img/wallpaper.jpg" alt="Wallpaper">
+</section>
+
+<?php include("section_two.php"); ?>
 	
 </section>
 
