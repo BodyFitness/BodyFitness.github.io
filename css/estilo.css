@@ -8,6 +8,7 @@
     color: white;
 }
 
+
 /* CSS NAVBAR*/
 
 nav{
@@ -51,6 +52,13 @@ nav ul li a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.walltext
+{
+    position: absolute;
+    top: 50%;
+    font-weight: 50px;
 }
 
 /* CSS SECTION ONE */
@@ -123,12 +131,16 @@ nav ul li a{
     padding: 70px;
 }
 
-.classes .img img{
-    height: 260px;
+.img{
+    width: 350px;
+    
 }
+
+
 
 /* CSS PRICES */
 
+/*
 #banner-2{
     justify-content: center;
     align-items: center;
@@ -139,19 +151,13 @@ nav ul li a{
     background-repeat: no-repeat;
     background-position: center;
 }
+*/
 
 .prices{
     background-color: #1C1C1C; 
 }
 
-.container{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 100px;
-}
+
 
 .content{
     width: 300px;
@@ -197,18 +203,12 @@ nav ul li a{
     line-height: 3;
 }
 
-.content a{
-    text-decoration: none;
-    border-radius: 3px;
-    border:2px solid #fff;
-    color: #fff;
-    padding: 10px 60px;
-    display: inline-block;
-    margin-top: 5% auto;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
+.centro
+{
+    z-index: 2000;
+    
+}
 
 /* CSS FOOTER*/
 
