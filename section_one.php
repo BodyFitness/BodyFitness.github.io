@@ -16,7 +16,7 @@
                 <h4>Porquê escolher a BodyFitness?</h4>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="info">
                         <img id="barra" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-barra.png" alt="Barra">
                         <h4>Personal Trainer</h4>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="info">
                         <img id="copo" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-copo.png" alt="Copo">
                         <h4>Plano Nutricional</h4>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="info">
                         <img id="heart" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-heart.png" alt="Coração">
                         <h4>Consulta Médica</h4>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="info">
                         <img id="esteira" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-esteira.png" alt="esteira">
                         <h4>Equipamentos Modernos</h4>
