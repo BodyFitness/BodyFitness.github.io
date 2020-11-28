@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BodyFitness</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-</head>
-<body>
 
     <section class="secao1" id="one">
         <div class="container">
@@ -71,5 +61,3 @@
 
     </section>
     <script src="hoverScript.js"></script>
-</body>
-</html>

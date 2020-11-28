@@ -1,65 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <style>
-        section.parallax{
-            position: relative;
-            width: 100%;
-            padding:40px 0;
-            min-height: 300px;
-            background-image: url('img/banner.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-        }
-
-        section.parallax > .center{
-            position: relative;
-            
-            z-index: 2;
-            max-width: 960px;
-            color: white;
-        }
-
-        section.parallax h2{
-            text-align: center;
-        }
-        section.parallax p{
-            margin-top: 15px;
-        }
-
-        .overlay-parallax{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: rgba(20,20,20,0.6);
-
-        }
-
-        .bg-home input[type="text"] {
-		    font-family: lato;
-		    color: #fff;
-		    background: 0 0;
-		    border: 0;
-		    
-        }
-        
-        @media (min-width: 960px)
-        {
-            section.parallax > .center
-            {
-                left: 15%;
-            }
-        }
-
-    </style>
-</head>
 <body>
 
     <section class="parallax">
@@ -69,67 +7,169 @@
                     <h2>Planeje & Desenvolva</h2>
                     <h2 class="text-white"> <img src="img/logo.png" alt="BodyFitness"></h2>
                     <h4>Uma academia feita para todos; Com Suplementos para Todos.</h4>
-                    <p>Vegetarianos, Veganos, Crudi, Flex e Não-Veg</p>
+                    <p><i class="fa fa-leaf" aria-hidden="true"></i>
+                    Vegetarianos, Veganos, Crudi, Flex e Não-Veg
+                    </p>
             </div>
                     
             
 			
 				
 		</div>
-	</section>
-        
-    
-    
+    </section>
+    <div class="father bg-secondary">
 
-    <div align="center" class="prices">
-        <h2>Nossos Planos</h2>
-        <div class="container">
-            <div class="content">
-            <h1>Padrão</h1>
-            <div class="price">
-                <h2>R$39,99</h2>
+        <div class="container bg-secondary">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <h2>Nossos Planos</h2>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
-            <div class="detail">
-                <h4>Equipamentos ilimitados</h4>
-                <h4>Auxiliadora Tecnica</h4>
-                <h4>Aulas de Alimentação</h4>
-                <h4>Sache de Suplemento</h4>
-                <h4>Sem restrição de tempo</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Mensal.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Mensal</h3>
+                            <p class="card-text">Assinatura de 1 mês de acesso a academia. <br> Renova Automaticamente</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-dark">
+                                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                Equipamentos ilimitados
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Auxiliadora Tecnica
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Aulas de Alimentação
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Sache de Suplemento
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                1h de Treino
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Cancele quando quiser
+                            </li>
+                        </ul>
+                        <div class="card-body ">
+                            <a href="#" class="btn btn-outline-warning w-100">Matricular</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+                    
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="img/6meses.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">6 Meses</h3>
+                            <p class="card-text">Assinatura de 6 mês de acesso a academia. <br> Renova Automaticamente</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-dark">
+                                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                Equipamentos ilimitados
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                                Personal Trainer
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Aulas de Alimentação
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Sache de Suplemento
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                                2h de Treino
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Cancele quando quiser
+                            </li>
+                        </ul>
+                        <div class="card-body ">
+                            <a href="#" class="btn btn-outline-warning w-100">Matricular</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <div class="col-sm-4">
+                    
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Anual.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Anual</h3>
+                            <p class="card-text">Assinatura de 1 ano de acesso a academia. <br> Renova Automaticamente</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-dark">
+                                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                Equipamentos ilimitados
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                                Personal Trainer
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Aulas de Alimentação
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                                2 Potes de Suplemento
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                                Sem restrição de tempo
+                            </li>
+                            <li class="list-group-item bg-dark">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+
+                                Cancele quando quiser
+                            </li>
+                        </ul>
+                        <div class="card-body ">
+                            <a href="#" class="btn btn-outline-warning w-100">Matricular</a>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <a class="btn btn-outline-warning" href="#">Matricular</a>
-        </div>
-        
-        <div class="content">
-            <h1>6 meses</h1>
-            <div class="price">
-                <h2>R$119,99</h2>
-            </div>
-            <div class="detail">
-                <h4>Equipamentos ilimitados</h4>
-                <h4>Personal trainer</h4>
-                <h4>Aulas de Alimentação</h4>
-                <h4>Sache de Suplemento</h4>
-                <h4>Sem restrição de tempo</h4>
-            </div>
-            <a class="btn btn-outline-warning" href="#">Matricular</a>
+            <br>
         </div>
 
-        <div class="content">
-            <h1>Anual</h1>
-            <div class="price">
-                <h2>R$399,99</h2>
-            </div>
-            <div class="detail">
-                <h4>Equipamentos ilimitados</h4>
-                <h4>Personal trainer</h4>
-                <h4>Aulas de Alimentação</h4>
-                <h4>Bonûs de 1 Suplemento Veg</h4>
-                <h4>Sem restrição de tempo</h4>
-            </div>
-            <a class="btn btn-outline-warning" href="#">Matricular</a>
-        </div>
     </div>
-
-</div>
-</body>
-</html>
+    

@@ -17,7 +17,7 @@
                 <a class="nav-link text-white" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="sobre.php">Sobre Nós</a>
+                <a class="nav-link text-white" href="#one">Sobre Nós</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="time.php">Nosso Time</a>
