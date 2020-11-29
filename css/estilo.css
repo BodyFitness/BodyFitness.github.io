@@ -27,8 +27,12 @@
 		margin:15px 0;
 	}
 	#wallImg{
-		visibility: hidden;
-	}
+        visibility: hidden;
+    }
+    .wallpaper
+    {
+        background-color: #1C1C1C;
+    }
 }
 
 nav{

@@ -8,13 +8,24 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<style>
+		@media screen and (max-width: 768px)
+		{
+			.wallpaper
+			{
+				background-color: #1c1c1c;
+			}
+			
+		}
+		
+	</style>
 </head>
 <body>
 
 
 <?php include("navbar.php"); ?>
 
-<section class="wallpaper">
+<section class="wallpaper" >
 	<div class="walltext">
 		<h3>SEJA <span class="text-warning">FORTE</span></h3>
 		<br>
