@@ -101,7 +101,7 @@
 		<h3>SEJA <span class="text-warning">FORTE</span></h3>
 		<br>
 		<h3>TREINE CONOSCO</h3>
-		<a class="btn w-100 btn-outline-warning" href="">Matricular</a>
+		<a class="btn w-100 btn-outline-warning" href="#Planos">Matricular</a>
 	</div>
 	<img id="wallImg" src="img/wall4.jpg" alt="Wallpaper">
 

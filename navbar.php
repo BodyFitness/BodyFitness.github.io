@@ -17,13 +17,13 @@
                 <a class="nav-link text-white" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#one">Serviços</a>
+                <a class="nav-link text-white" href="#Servicos">Serviços</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="time.php">Planos</a>
+                <a class="nav-link text-white" href="#Planos">Planos</a>
             </li>
     	    <li class="nav-item">
-                <a class="nav-link text-white" href="serviços.php">GitHub</a>
+                <a class="nav-link text-white" href="https://github.com/BodyFitness">GitHub</a>
             </li>
 	    	
         </ul>
