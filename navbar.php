@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<div class="navbar navbar-expand-lg bg-dark"> 
+	<div class="navbar navbar-expand-lg bg-dark desktop"> 
         <a class="navbar-brand">
             <img src="img/logo.png" alt="BODYFITNESS">
         </a>
@@ -17,19 +17,47 @@
                 <a class="nav-link text-white" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#one">Sobre Nós</a>
+                <a class="nav-link text-white" href="#one">Serviços</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="time.php">Nosso Time</a>
+                <a class="nav-link text-white" href="time.php">Planos</a>
             </li>
     	    <li class="nav-item">
-                <a class="nav-link text-white" href="serviços.php">Serviços</a>
+                <a class="nav-link text-white" href="serviços.php">GitHub</a>
             </li>
-	    	<li class="nav-item">
-                <a class="nav-link text-white" href="contato.php">Contato</a>
-            </li>
+	    	
         </ul>
-    </div>
+</div>
+
+    <nav class="mobile">
+					<i id="Open" class="fa fa-bars"></i>
+					<i id="Close" style="display: none;" class="fa fa-times" aria-hidden="true"></i>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="#Cursos">Cursos</a></li>
+						<li><a href="#Sobre">Sobre</a></li>
+						<li><a href="#Contato">Contato</a></li>
+					</ul>	
+				</nav>
+				
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$(function(){
+			$('nav.mobile i').click(function(){
+				var el = $(this).parent().find('ul');
+				if(el.is(':visible') == false){
+				 el.fadeIn();
+				 document.getElementById('Open').style = "display: none;"
+				 document.getElementById('Close').style = "display: solid;"
+				}else{
+					el.fadeOut();
+					document.getElementById('Close').style = "display: none;"
+					document.getElementById('Open').style = "display: solid;"
+				}
+			})
+		})
+	</script>
 
 </body>
 </html>

@@ -21,7 +21,7 @@
 		<h3>TREINE CONOSCO</h3>
 		<a class="btn btn-outline-warning" href="">Matricular</a>
 	</div>
-	<img src="img/wallpaper.jpg" alt="Wallpaper">
+	<img id="wallImg" src="img/wall4.jpg" alt="Wallpaper">
 
 </section>
 

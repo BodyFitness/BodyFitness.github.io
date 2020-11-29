@@ -12,6 +12,26 @@
 
 /* CSS NAVBAR*/
 
+@media screen and (max-width: 768px){
+	.mobile{
+		display: block;
+	}
+	.desktop{
+        display: none;
+        visibility: hidden;
+    }
+	.w50{
+		width: 100%;
+	}
+	.time > .w50{
+		width: 100%;
+		margin:15px 0;
+	}
+	#wallImg{
+		visibility: hidden;
+	}
+}
+
 nav{
     background-color:#DAA520;
     height: 80px;
@@ -41,7 +61,6 @@ nav ul li{
 nav ul li a{
     color: #fff;
     font-size: 20px;
-    text-transform: uppercase;
 }
 
 .wallpaper img{
@@ -60,6 +79,16 @@ nav ul li a{
     position: absolute;
     top: 50%;
     font-weight: 50px;
+}
+
+/* Index */
+
+@media screen and(max-width: 600px)
+{
+    #wallImg
+    {
+        visibility: hidden;
+    }
 }
 
 /* CSS SECTION ONE */
