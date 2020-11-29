@@ -14,9 +14,44 @@
 			.wallpaper
 			{
 				background-color: #1c1c1c;
+				height: 50vh;
 			}
 			
 		}
+		nav.mobile li{
+			font-weight: lighter;
+			border-bottom: 1px solid #444;
+			text-align: center;
+			padding:8px 0;
+		}
+
+		nav.mobile a{
+			display: block;
+			text-decoration: none;
+			color: #444;
+		}
+
+		nav.desktop{
+			margin-top: 20px;
+			float: right;
+		}
+
+		nav.desktop ul{
+			list-style-type: none;
+		}
+
+		nav.desktop li{
+			display: inline-block;
+			margin:0 15px;
+			font-size: 17px;
+			font-weight: lighter;
+		}
+
+		nav.desktop a{
+			color: white;
+			text-decoration: none;
+		}
+
 		
 	</style>
 </head>

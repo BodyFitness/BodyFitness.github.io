@@ -29,6 +29,17 @@
         </ul>
     </div>
 
+    <nav class="mobile">
+        <i id="Open" class="fa fa-bars"></i>
+        <i id="Close" style="display: none;" class="fa fa-times" aria-hidden="true"></i>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#Cursos">Cursos</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>	
+    </nav>
+
   
 
    

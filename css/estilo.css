@@ -35,37 +35,7 @@
     }
 }
 
-nav{
-    background-color:#DAA520;
-    height: 80px;
-    width: 100%;
-    line-height: 80px;
-    padding: 0 10px;
-    font-weight: bold;
-}
 
-
-label{
-    color: #fff;
-    font-size: 25px;
-}
-
-nav ul{
-    float: right;
-    margin-right: 60px;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 10px;
-}
-
-nav ul li a{
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-}
 
 .wallpaper img{
     justify-content: center;
