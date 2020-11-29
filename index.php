@@ -11,12 +11,44 @@
 	<style>
 		@media screen and (max-width: 768px)
 		{
+		
 			.wallpaper
 			{
 				background-color: #1c1c1c;
 				height: 50vh;
 			}
+			.walltext
+			{
+				left: 15%;
+				margin-top: -50%;
+				
+			}
+
+			.logo{
+				margin-top: 20px;
+				float: left;
+				color: white;
+				font-size: 23px;
+				font-weight: bold;
+				display: inline-block !important;
+			}
+
+			nav.mobile{
+				display: block !important;
+				float: right !important;
+			}
 			
+			.desktop{
+				display: none !important;
+			}
+			.w50{
+				width: 100%;
+			}
+			
+		}
+		.logo
+		{
+			display: none;
 		}
 		nav.mobile li{
 			font-weight: lighter;
@@ -31,25 +63,29 @@
 			color: #444;
 		}
 
-		nav.desktop{
-			margin-top: 20px;
+		nav.mobile ul{
+			display: none;
+			z-index: 2;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			top: 94px;
+			background: white;
+			list-style-type: none;
+		
+		}
+
+		nav.mobile{
+			display: none;
 			float: right;
 		}
 
-		nav.desktop ul{
-			list-style-type: none;
-		}
-
-		nav.desktop li{
-			display: inline-block;
-			margin:0 15px;
-			font-size: 17px;
-			font-weight: lighter;
-		}
-
-		nav.desktop a{
+		nav.mobile > i{
+			position: relative;
+			top: 23px;
+			cursor: pointer;
+			font-size: 25px;
 			color: white;
-			text-decoration: none;
 		}
 
 		
@@ -65,7 +101,7 @@
 		<h3>SEJA <span class="text-warning">FORTE</span></h3>
 		<br>
 		<h3>TREINE CONOSCO</h3>
-		<a class="btn btn-outline-warning" href="">Matricular</a>
+		<a class="btn w-100 btn-outline-warning" href="">Matricular</a>
 	</div>
 	<img id="wallImg" src="img/wall4.jpg" alt="Wallpaper">
 
@@ -78,7 +114,23 @@
 ?>
 	
 </section>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$(function(){
+			$('nav.mobile i').click(function(){
+				var el = $(this).parent().find('ul');
+				if(el.is(':visible') == false){
+				 el.fadeIn();
+				 document.getElementById('Open').style = "display: none;"
+				 document.getElementById('Close').style = "display: solid;"
+				}else{
+					el.fadeOut();
+					document.getElementById('Close').style = "display: none;"
+					document.getElementById('Open').style = "display: solid;"
+				}
+			})
+		})
+	</script>
 
 </body>
 </html>

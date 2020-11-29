@@ -29,6 +29,11 @@
         </ul>
     </div>
 
+    <div class="logo">
+		<img src="img/logo.png" alt="">
+
+	</div>
+
     <nav class="mobile">
         <i id="Open" class="fa fa-bars"></i>
         <i id="Close" style="display: none;" class="fa fa-times" aria-hidden="true"></i>

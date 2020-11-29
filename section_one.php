@@ -1,4 +1,62 @@
+<head>
+    <style>
+        #one{
+            background-color: #1C1C1C;
+            justify-content: center;
+        }
 
+        #one h4, #two h4,  #banner-2 h4{
+            text-align: center;
+            color: #DAA520;
+            padding: 30px;
+            text-transform: uppercase;
+        }
+
+
+
+        .info img
+        {
+            width: 100px;
+            position: relative;
+            left: 30%;
+        }
+
+        .info h4
+        {
+            text-align: left;
+        }
+
+        .secao1 h1
+        {
+            color: white;
+        }
+
+        .secao1 p
+        {
+            font-size: 14px;
+            font-family: "Muli", sans-serif;
+            color: #a9a9a9;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0 0 15px 0;
+        }
+
+        .icons{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 70px;
+            text-align: center;
+        }
+
+        .icons .img img{
+            height: 120px;
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
 
     <section class="secao1" id="one">
         <div class="container">
