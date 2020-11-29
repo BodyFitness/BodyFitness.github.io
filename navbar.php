@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<div class="navbar navbar-expand-lg bg-dark"> 
+	<div class="navbar navbar-expand-lg bg-dark desktop"> 
         <a class="navbar-brand">
             <img src="img/logo.png" alt="BODYFITNESS">
         </a>
