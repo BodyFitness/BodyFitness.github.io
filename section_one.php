@@ -93,10 +93,11 @@
                     <div class="info">
                         <img id="heart" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-heart.png" alt="Coração">
                         <h4>Consulta Médica</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Distinctio, ullam necessitatibus minus mollitia
-                            laborum voluptate nam a explicabo eum vero magni magnam
-                            quasi hic molestias aliquid nostrum aperiam? Tempora, incidunt.</p>
+                        <p>Com nosso plano medico você terá um acompanhamento
+                            especializado, focado no seu desenvolvimento corporal
+                            de forma saúdavel para que mantenha sempre um corpo e
+                            estilo de vida saúdavel.
+                        </p>
                     </div>
                 </div>
 
@@ -104,10 +105,10 @@
                     <div class="info">
                         <img id="esteira" onmouseover="HoverImg(id)" onmouseout="LeaveImg(id)" src="img/icon-esteira.png" alt="esteira">
                         <h4>Equipamentos Modernos</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Distinctio, ullam necessitatibus minus mollitia
-                            laborum voluptate nam a explicabo eum vero magni magnam
-                            quasi hic molestias aliquid nostrum aperiam? Tempora, incidunt.</p>
+                        <p>Na BodyFitness possuímos os melhores e mais modernos
+                            equipamentos, para que você possa obter o melhor
+                            desempenho possível.
+                        </p>
                     </div>
                 </div>
 

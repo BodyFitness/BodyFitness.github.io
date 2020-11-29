@@ -10,8 +10,8 @@
 		Marcos Lorhan, Lucas Sousa. <br>
 		Icones: Autorais/FontAwesome;
 		Imagens: Freepik + Web.
-		<a href='https://br.freepik.com/fotos/fundo'>Fundo foto criado por sergeycauselove - br.freepik.com</a>
-		<a href='https://br.freepik.com/fotos/homem'>Homem foto criado por serhii_bobyk - br.freepik.com</a>
+		<br>
+		<a href='https://br.freepik.com/fotos/homem'>foto da capa criado por serhii_bobyk - br.freepik.com</a>
 	</p> 
 	
 	
