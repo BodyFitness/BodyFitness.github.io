@@ -8,7 +8,8 @@
 </head>
 <body>
 
-	<div class="navbar navbar-expand-lg bg-dark desktop"> 
+	<div class="navbar navbar-expand-lg bg-dark"> 
+        <nav class="desktop">
         <a class="navbar-brand">
             <img src="img/logo.png" alt="BODYFITNESS">
         </a>
@@ -27,6 +28,8 @@
             </li>
 	    	
         </ul>
+        </nav>
+        
 </div>
 
     <nav class="mobile">
