@@ -39,9 +39,9 @@
         <i id="Close" style="display: none;" class="fa fa-times" aria-hidden="true"></i>
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="#Cursos">Cursos</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Contato">Contato</a></li>
+            <li><a href="#Servicos">Serviços</a></li>
+            <li><a href="#Planos">Planos</a></li>
+            <li><a target="blank" href="https://github.com/BodyFitness">GitHub</a></li>
         </ul>	
     </nav>
 
