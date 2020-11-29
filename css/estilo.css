@@ -66,6 +66,19 @@ nav ul li a{
     background-position: center;
 }
 
+.mobile{
+	display: none;
+	float: right;
+}
+
+.mobile > i{
+	position: relative;
+	top: 23px;
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+}
+
 .walltext
 {
     position: absolute;

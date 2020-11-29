@@ -9,7 +9,6 @@
 <body>
 
 	<div class="navbar navbar-expand-lg bg-dark"> 
-        <nav class="desktop">
         <a class="navbar-brand">
             <img src="img/logo.png" alt="BODYFITNESS">
         </a>
@@ -28,11 +27,9 @@
             </li>
 	    	
         </ul>
-        </nav>
-        
 </div>
 
-    <nav class="mobile">
+    <div class="mobile">
 					<i id="Open" class="fa fa-bars"></i>
 					<i id="Close" style="display: none;" class="fa fa-times" aria-hidden="true"></i>
 					<ul>
@@ -41,7 +38,7 @@
 						<li><a href="#Sobre">Sobre</a></li>
 						<li><a href="#Contato">Contato</a></li>
 					</ul>	
-				</nav>
+    </div>
 				
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
